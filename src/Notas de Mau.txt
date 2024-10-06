@@ -1,0 +1,8 @@
+rafce: Comnando para importar una funcion de react en automatico
+¿Que es un Componente?: Es una pieza de codigo que se puede reutilizar
+
+header.navbar: Te pone la etiqueta header + una clase
+nav.logo: Te pone la etiqueta nav + una clase
+
+./ -> Significa que esta en el mismo nivel de carpetas
+../ -> Significa que esta en otro nivel superior de carpetas

@@ -1,4 +1,15 @@
-:root {
+/*El asterisco (*) selecciona cualquier elemento HTML, lo que significa que las reglas que se le aplican impactan a cada elemento del DOM (Document Object Model).*/
+*{
+  margin: 0;
+  /*los márgenes son el espacio exterior que rodea a un elemento, es decir, el espacio entre el borde del elemento y otros elementos cercanos.*/
+  padding: 0;
+  /*Establece el relleno (padding) de todos los elementos a 0. El padding es el espacio entre el contenido de un elemento y su borde. */
+  box-sizing: border-box;
+  /*Esta propiedad redefine cómo se calculan las dimensiones de un elemento.
+  Esto previene que elementos se desborden inesperadamente cuando se les añade padding o bordes, manteniendo las dimensiones esperadas.*/
+}
+
+/*:root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -66,3 +77,4 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+*/
