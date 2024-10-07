@@ -2,11 +2,16 @@
 //¿Que es un Componente?: Es una pieza de codigo que se puede reutilizar
 import React from 'react'
 import NavbarComponent from './Components/LandingPage/Navbar/NavbarComponent'
+import FooterComponent from './Components/LandingPage/Footer/FooterComponent'
+import BlogComponent from './Components/LandingPage/Blog/BlogComponent'
+import './App.css'
 
 const App = () => {
   return (
     <div>
       <NavbarComponent></NavbarComponent>
+      <BlogComponent></BlogComponent>
+      <FooterComponent></FooterComponent>
     </div>
   )
 }

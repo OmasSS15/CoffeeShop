@@ -1,0 +1,64 @@
+header {
+    padding-left: 2rem; /* Empuja todo el header hacia la derecha */
+  }
+  
+
+.blog {
+    padding: 2rem;
+    background-color: rgba(43, 40, 54, 0.5); /* Fondo púrpura oscuro translúcido */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  header h1, h2  {
+    color: white;
+    
+  }
+  
+  .blog article {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border-left: 4px solid #ffcc00; /* Barra decorativa dorada */
+    background-color: rgb(36, 30, 53); /* Color púrpura oscuro */
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .blog article:hover {
+    transform: translateY(-5px); /* Efecto hover */
+    background-color: #2e2840; /* Color ligeramente más claro en hover */
+  }
+  
+  .blog h3 {
+    margin-top: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffcc00; /* Color dorado para encabezados */
+    font-size: 1.5rem;
+  }
+  
+  .blog p {
+    font-size: 1rem;
+    text-align: left; /* Texto alineado a la izquierda */
+    color: #e0e0e0; /* Texto en gris claro para buena legibilidad */
+    line-height: 1.6;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #ffcc00; /* Botón dorado */
+    color: #241e35; /* Texto púrpura oscuro para contraste */
+    text-transform: uppercase;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  
+  .cta-button:hover {
+    background-color: #e6b800; /* Botón más oscuro al pasar el ratón */
+    transform: scale(1.05);
+  }

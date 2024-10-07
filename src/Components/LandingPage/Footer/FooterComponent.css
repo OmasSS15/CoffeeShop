@@ -1,0 +1,10 @@
+.footer {
+    text-align: center;
+    padding: 1.25rem;
+    background-color: #7F5539;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    line-height: 1.5; /* Ajusta el espacio entre líneas */
+  }

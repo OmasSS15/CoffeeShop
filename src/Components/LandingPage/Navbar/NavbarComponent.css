@@ -5,7 +5,7 @@
     left: 0;
     width: 100%;
     padding: 10px 5%;
-    background-color: #9C6644;
+    background-color: rgba(156, 102, 68, 0.75);
     display: flex;
     justify-content: space-between;
     align-items: center; 
