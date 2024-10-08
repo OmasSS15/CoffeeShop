@@ -10,10 +10,14 @@ import './App.css'
 const App = () => {
   return (
     <div>
-      <header><NavbarComponent></NavbarComponent></header>
-      <BlogComponent></BlogComponent>
-      <PostreComponent></PostreComponent>
-      <footer><FooterComponent></FooterComponent></footer>
+      <header><NavbarComponent /></header>
+      
+      <div className="app-content"> {/* Esta es la parte que tendrá el fondo */}
+        <BlogComponent />
+        <PostreComponent />
+      </div>
+
+      <footer><FooterComponent /></footer>
     </div>
   )
 }
