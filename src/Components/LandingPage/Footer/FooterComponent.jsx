@@ -8,10 +8,10 @@ import '../../../Components/Letras/Kadwa.css'
 const FooterComponent = () => {
   return (
     <div>
-        <footer className="footer inria-serif-regular">
+        <nav className="footer inria-serif-regular">
             <p>&copy; 2024 Girls & Mau Mau’s Coffee. Todos los derechos reservados.</p>
             <p>Contacto: info@girls&mau.com</p>
-        </footer>
+        </nav>
     </div>
   )
 }

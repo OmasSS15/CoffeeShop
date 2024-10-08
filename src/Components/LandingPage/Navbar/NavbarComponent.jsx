@@ -14,7 +14,7 @@ const NavbarComponent = () => {
   return (
     <div>
         {/*header.navbar: Te pone la etiqueta header + una clase */}
-        <header className="navbar">
+        <nav className="navbar">
             {/*nav.logo: Te pone la etiqueta nav + una clase */}
             <nav className="logo">
                 <img src="/LOGOCAFE.png" alt="Logo" className="logo-image" />
@@ -27,11 +27,11 @@ const NavbarComponent = () => {
             </ul>
 
             <nav className="botones">
-                <button className="btn btn1-color anton-regular">Regístrate</button>
-                <button className="btn btn2-color anton-regular">Iniciar Sesión</button>
+                <button className="btn anton-regular">Regístrate</button>
+                <button className="btn anton-regular">Iniciar Sesión</button>
             </nav>
 
-        </header>
+        </nav>
     </div>
   )
 }

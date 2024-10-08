@@ -35,31 +35,34 @@
     border-radius: 10px;
     cursor: pointer;
     font-size: large;
-  }
-
-  .btn1-color {
     background-color: #CD6582;
     color: #ffffff;
+    transition: background-color 0.3s ease, transform 0.3s ease; /*Transición de inicio para el efecto hover*/
   }
 
-  .btn2-color {
-    background-color: #ffffff;
-  }
-  
+.btn:hover{
+  background-color: #cf4d72; /* Botón más oscuro al pasar el ratón */
+  transform: scale(1.05); /*Transición de final para el efecto hover*/
+}
   
   /* Links de navegación */
-  .pestañas {
-    list-style: none;
-    display: flex;
-    gap: 2rem;
-  }
+.pestañas {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
   
-  .pestañas li a {
-    color: white;
-    text-decoration: none;
-    transition: color 0.3s ease;
-    font-size: large;
-  }
+.pestañas li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-size: large;
+}
+
+.pestañas li a:hover{
+  color: #000000;
+  transform: scale(1.05);
+}
   
   
   
