@@ -6,3 +6,6 @@ nav.logo: Te pone la etiqueta nav + una clase
 
 ./ -> Significa que esta en el mismo nivel de carpetas
 ../ -> Significa que esta en otro nivel superior de carpetas
+
+1rem = 16px
+Hover: Efecto para hacer que las cosas de css parezcan que floten o aumenten el tamaño

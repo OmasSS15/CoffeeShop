@@ -1,9 +1,9 @@
 import React from 'react'
 import './FooterComponent.css'
-import '../../../Components/Letras/Inria-Seria.css'
-import '../../../Components/Letras/Alfa-Slab-One.css'
-import '../../../Components/Letras/Anton.css'
-import '../../../Components/Letras/Kadwa.css'
+import '../../../Components/Tipografia/Inria-Seria.css'
+import '../../../Components/Tipografia/Alfa-Slab-One.css'
+import '../../../Components/Tipografia/Anton.css'
+import '../../../Components/Tipografia/Kadwa.css'
 
 const FooterComponent = () => {
   return (

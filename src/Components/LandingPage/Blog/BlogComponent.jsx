@@ -1,10 +1,10 @@
 import React from 'react'
 import './BlogComponent.css'
 
-import '../../../Components/Letras/Inria-Seria.css'
-import '../../../Components/Letras/Alfa-Slab-One.css'
-import '../../../Components/Letras/Anton.css'
-import '../../../Components/Letras/Kadwa.css'
+import '../../../Components/Tipografia/Inria-Seria.css'
+import '../../../Components/Tipografia/Alfa-Slab-One.css'
+import '../../../Components/Tipografia/Anton.css'
+import '../../../Components/Tipografia/Kadwa.css'
 
 const BlogComponent = () => {
   return (
@@ -23,7 +23,7 @@ const BlogComponent = () => {
                     <p className='kadwa-regular'>¡Te esperamos!</p>
                 </article>
         
-                <button className="cta-button anton-regular">VER MÁS...</button>
+                <button className="cta-button animate-text anton-regular">VER MÁS...</button>
             </section>
         </nav>
     </div>

@@ -4,6 +4,7 @@ import React from 'react'
 import NavbarComponent from './Components/LandingPage/Navbar/NavbarComponent'
 import FooterComponent from './Components/LandingPage/Footer/FooterComponent'
 import BlogComponent from './Components/LandingPage/Blog/BlogComponent'
+import PostreComponent from './Components/LandingPage/Postres/PostreComponent'
 import './App.css'
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
     <div>
       <header><NavbarComponent></NavbarComponent></header>
       <BlogComponent></BlogComponent>
+      <PostreComponent></PostreComponent>
       <footer><FooterComponent></FooterComponent></footer>
     </div>
   )

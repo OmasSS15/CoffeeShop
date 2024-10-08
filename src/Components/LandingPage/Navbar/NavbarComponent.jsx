@@ -3,10 +3,10 @@ import './NavbarComponent.css'
 /*../ -> Significa que esta en otro nivel superior de carpetas */ 
 /*En este caso, mi archivo Inria-Seria.css esta a 3 niveles, ya que para llegar a la carpeta de NavbarComponent.jsx
 necesitas pasar por la carpeta LandingPage, luego por la carpeta Navvar hasta llegar al archivo*/
-import '../../../Components/Letras/Inria-Seria.css'
-import '../../../Components/Letras/Alfa-Slab-One.css'
-import '../../../Components/Letras/Anton.css'
-import '../../../Components/Letras/Kadwa.css'
+import '../../../Components/Tipografia/Inria-Seria.css'
+import '../../../Components/Tipografia/Alfa-Slab-One.css'
+import '../../../Components/Tipografia/Anton.css'
+import '../../../Components/Tipografia/Kadwa.css'
 
 import React from 'react'
 
@@ -27,8 +27,8 @@ const NavbarComponent = () => {
             </ul>
 
             <nav className="botones">
-                <button className="btn anton-regular">Regístrate</button>
-                <button className="btn anton-regular">Iniciar Sesión</button>
+                <button className="btn animate-text anton-regular">Regístrate</button>
+                <button className="btn animate-text anton-regular">Iniciar Sesión</button>
             </nav>
 
         </nav>

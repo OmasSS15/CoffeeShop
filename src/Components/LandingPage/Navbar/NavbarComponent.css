@@ -5,7 +5,7 @@
     left: 0;
     width: 100%;
     padding: 10px 5%;
-    background-color: rgba(156, 102, 68, 0.75);
+    background-color: rgba(156, 102, 68);
     display: flex;
     justify-content: space-between;
     align-items: center; 
@@ -55,7 +55,7 @@
 .pestañas li a {
   color: white;
   text-decoration: none;
-  transition: color 0.3s ease;
+  transition: 0.3s ease;
   font-size: large;
 }
 
