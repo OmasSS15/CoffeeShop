@@ -1,0 +1,98 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Inria Serif', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contact-form {
+    background-color: #F8B4C6;
+    padding: 50px;
+    border-radius: 8px;
+    width: 700px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Para evitar que el encabezado salga de los bordes */
+}
+
+.contact-form h2 {
+    background-color: #7E654E; /* Marrón oscuro */
+    color: #FFFFFF;
+    padding: 10px;
+    margin: -50px -50px 30px -50px; /* Ajustar para el borde superior del formulario */
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+    font-family: 'Inria Serif', serif;
+}
+
+.contact-form form {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px 20px;
+    align-items: center;
+}
+
+.contact-form label {
+    color: #7E654E; /* Marrón oscuro */
+    text-align: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #B19881; /* Marrón claro */
+    border-radius: 5px;
+    background-color: #FFF8F8;
+    font-family: 'Inria Serif', serif;
+}
+
+.contact-form textarea {
+    resize: none;
+}
+
+.contact-form button {
+    grid-column: span 2; /* Para que el botón ocupe toda la fila */
+    width: 50%; /* Mantener el ancho del botón */
+    padding: 10px;
+    background-color: #CD6582; /* Rosa oscuro */
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Kadwa', serif;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 15px auto 0 auto; /* Centrar el botón */
+    display: block;
+}
+
+.contact-form button:hover {
+    background-color: #B19881; /* Marrón claro */
+}
+
+nav a {
+    color: #FFFFFF;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #F8B4C6; /* Color rosa claro */
+}
+
+.btn {
+    background-color: #CD6582; /* Color rosa oscuro */
+    color: #FFFFFF;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Kadwa', serif;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #F8B4C6; /* Color rosa claro */
+}

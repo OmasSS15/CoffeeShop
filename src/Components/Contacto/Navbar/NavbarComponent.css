@@ -1,0 +1,68 @@
+/* Navbar general */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 5%;
+    background-color: rgba(156, 102, 68);
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    z-index: 100;
+  }
+  
+  /* Estilo para el logo */
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-image {
+    height: 80px; /* Ajusta el tamaño del logo según lo necesites */
+  }
+  
+  /* Botones de registro e inicio de sesión */
+  .botones {
+    display: flex;
+    gap: 1rem;
+    margin-right: 90px;
+  }
+  
+  .btn {
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: large;
+    background-color: #CD6582;
+    color: #ffffff;
+    transition: background-color 0.3s ease, transform 0.3s ease; /*Transición de inicio para el efecto hover*/
+  }
+
+.btn:hover{
+  background-color: #cf4d72; /* Botón más oscuro al pasar el ratón */
+  transform: scale(1.05); /*Transición de final para el efecto hover*/
+}
+  
+  /* Links de navegación */
+.pestañas {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+  
+.pestañas li a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s ease;
+  font-size: large;
+}
+
+.pestañas li a:hover{
+  color: #000000;
+  transform: scale(1.05);
+}
+  
+  
+  
