@@ -1,24 +1,45 @@
 //rafce: Comnando para importar una funcion de react en automatico
 //¿Que es un Componente?: Es una pieza de codigo que se puede reutilizar
 import React from 'react'
+
 import NavbarComponent from './Components/LandingPage/Navbar/NavbarComponent'
 import FooterComponent from './Components/LandingPage/Footer/FooterComponent'
 import BlogComponent from './Components/LandingPage/Blog/BlogComponent'
 import PostreComponent from './Components/LandingPage/Postres/PostreComponent'
+import Contacto from './Contacto'
 import './App.css'
+
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 const App = () => {
   return (
-    <div>
-      <header><NavbarComponent /></header>
+    <BrowserRouter>
+      <Routes>
+        {/* index ayuda a que lo primero que se muestre sea esta ruta */}
+        <Route 
+          index 
+          path="/" 
+          element={
+            <>
+              <div>
+                <header><NavbarComponent /></header>
       
-      <div className="app-content"> {/* Esta es la parte que tendrá el fondo */}
-        <BlogComponent />
-        <PostreComponent />
-      </div>
+                <div className="app-content"> {/* Esta es la parte que tendrá el fondo */}
+                  <BlogComponent />
+                  <PostreComponent />
+                </div>
 
-      <footer><FooterComponent /></footer>
-    </div>
+                <footer><FooterComponent /></footer>
+              </div>
+            </>  
+          
+          }/>
+          <Route path="/contacto" element={<Contacto />} />
+
+      </Routes>
+    
+    </BrowserRouter>
+    
   )
 }
 

@@ -8,6 +8,8 @@ import '../../../Components/Tipografia/Alfa-Slab-One.css'
 import '../../../Components/Tipografia/Anton.css'
 import '../../../Components/Tipografia/Kadwa.css'
 
+import { Link } from 'react-router-dom';
+
 import React from 'react'
 
 const NavbarComponent = () => {
@@ -20,10 +22,14 @@ const NavbarComponent = () => {
                 <img src="/LOGOCAFE.png" alt="Logo" className="logo-image" />
             </nav>
             <ul className="pestañas alfa-slab-one-regular">
-                <li><a href="#Inicio">Inicio</a></li>
+                <li><a href="#Inicio">
+                    <Link to="/" replace={true}>Inicio</Link>
+                </a></li>
                 <li><a href="#Acerca de">Acerca de</a></li>
                 <li><a href="#Menu">Menú</a></li>
-                <li><a href="#Contacto">Contacto</a></li>
+                <li><a href="#Contacto">
+                    <Link to="/contacto">Contacto</Link>
+                </a></li>
             </ul>
 
             <nav className="botones">

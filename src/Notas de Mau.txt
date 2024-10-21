@@ -9,3 +9,6 @@ nav.logo: Te pone la etiqueta nav + una clase
 
 1rem = 16px
 Hover: Efecto para hacer que las cosas de css parezcan que floten o aumenten el tamaño
+
+Instalar este paquete para el funcionamiento de las rutas:
+npm install react-router-dom

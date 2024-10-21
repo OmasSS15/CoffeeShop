@@ -1,4 +1,4 @@
-body {
+/* body {
     background-color: #ffffff;
     font-family: 'Inria Serif', serif;
     display: flex;
@@ -6,7 +6,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-}
+} */
 
 .contact-form {
     background-color: #F8B4C6;
@@ -72,7 +72,7 @@ body {
     background-color: #B19881; /* Marrón claro */
 }
 
-nav a {
+/* nav a {
     color: #FFFFFF;
     margin: 0 10px;
     text-decoration: none;
@@ -80,11 +80,11 @@ nav a {
 }
 
 nav a:hover {
-    color: #F8B4C6; /* Color rosa claro */
-}
+    color: #F8B4C6; /* Color rosa claro
+} */
 
-.btn {
-    background-color: #CD6582; /* Color rosa oscuro */
+/* .btn {
+    background-color: #CD6582; /* Color rosa oscuro
     color: #FFFFFF;
     padding: 10px 20px;
     text-decoration: none;
@@ -94,5 +94,5 @@ nav a:hover {
 }
 
 .btn:hover {
-    background-color: #F8B4C6; /* Color rosa claro */
-}
+    background-color: #F8B4C6; /* Color rosa claro
+} */
