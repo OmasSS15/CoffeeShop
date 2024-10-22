@@ -1,0 +1,67 @@
+.aboutus {
+    font-family: 'Inria Serif', serif;
+    background-color:url('fondo1.jpg') ;
+    background-image: url('./assets/Imagen/fondo1');
+    line-height: 1.6;
+}
+
+header {
+    background-color: #CD6582;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about {
+    padding: 40px 20px;
+    text-align: center;
+    background-image: url('./assets/Imagen/fondo1');
+}
+
+.about h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.about h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Estructura de Misión y Visión */
+
+.mission-vision {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.mission-container, .vision-container {
+    width: 400px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.mission-header, .vision-header {
+    background-color: #7E654E;
+    padding: 10px;
+    text-align: center;
+}
+
+.mission-header h1, .vision-header h1 {
+    color: #fff;
+    font-size: 24px;
+}
+
+.mission-body, .vision-body {
+    background-color: #F8B4C6;
+    padding: 20px;
+    text-align: center;
+}
+
+.mission-body p, .vision-body p {
+    font-size: 18px;
+    color: #333;
+}
+
