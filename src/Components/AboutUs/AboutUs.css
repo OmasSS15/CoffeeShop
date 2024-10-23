@@ -5,13 +5,13 @@
     line-height: 1.6;
 }
 
-header {
+/* header {
     background-color: #CD6582;
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+} */
 .about {
     padding: 40px 20px;
     text-align: center;

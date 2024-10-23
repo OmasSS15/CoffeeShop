@@ -1,16 +1,16 @@
-body {
+/* body {
     font-family: 'Arial', sans-serif;
     background-color: #fffbfb;
     margin: 0;
     padding: 0;
-}
+} */
 
-.navbar {
+.navbar2 {
     background-color: #a67c52; 
     padding: 15px 0; 
 }
 
-.navbar ul {
+.navbar2 ul {
     list-style: none;
     display: flex; 
     justify-content: center; 
@@ -19,12 +19,12 @@ body {
     margin: 0;
 }
 
-.navbar li {
+.navbar2 li {
     display: inline; 
     position: relative; /* Para usar el pseudo-elemento */
 }
 
-.navbar a {
+.navbar2 a {
     text-decoration: none; 
     color: #fff; 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -35,7 +35,7 @@ body {
 }
 
 
-.navbar li:not(:last-child)::after {
+.navbar2 li:not(:last-child)::after {
     content: ""; 
     display: inline-block; 
     width: 1px; 
@@ -45,7 +45,7 @@ body {
     margin-right: 50px; 
 }
 
-.navbar a:hover {
+.navbar2 a:hover {
     background-color: #e77c89; 
     color: #fff; 
 }
@@ -71,7 +71,6 @@ body {
     padding: 13px;
     border-radius: 5px;
     margin-left: -18px;
-    
 }
 
 .actions {
@@ -79,7 +78,7 @@ body {
     gap: 10px;
 }
 
-.btn {
+.btn2 {
     padding: 8px 12px;
     border: none;
     font-size: 15px;
@@ -91,7 +90,7 @@ body {
     cursor: pointer;
 }
 
-.btn:hover{
+.btn2:hover{
     transform: scale(1.10);
     transition: 0.3s;
 }

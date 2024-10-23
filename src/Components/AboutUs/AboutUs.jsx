@@ -4,7 +4,7 @@ import './AboutUs.css';
 const aboutus = () => {
   return (
 <body class="aboutus">
-    <header>
+    {/* <header>
         <nav>
             <ul>
                 <li><a href="#">Inicio</a></li>
@@ -17,7 +17,7 @@ const aboutus = () => {
                 <a href="#" class="login-button">Iniciar Sesión</a>
             </div>
         </nav>
-    </header>
+    </header> */}
 
     <section class="about">
         <h1>Girls & Mau Mau's Coffee</h1>
@@ -43,10 +43,10 @@ const aboutus = () => {
         </div>
     </section>
 
-    <footer>
+    {/* <footer>
         <p>2024 Girls & Mau Mau's Coffee. Todos los derechos reservados.</p>
         <p>Correo: info@girls&MauMau</p>
-    </footer>
+    </footer> */}
 </body>
   );
 };

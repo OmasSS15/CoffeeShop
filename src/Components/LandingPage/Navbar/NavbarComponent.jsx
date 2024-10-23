@@ -25,7 +25,9 @@ const NavbarComponent = () => {
                 <li><a href="#Inicio">
                     <Link to="/" replace={true}>Inicio</Link>
                 </a></li>
-                <li><a href="#Acerca de">Acerca de</a></li>
+                <li><a href="#Acerca de">
+                    <Link to="/acerca_de" >Acerca de</Link>
+                </a></li>
                 <li><a href="#Menu">Menú</a></li>
                 <li><a href="#Contacto">
                     <Link to="/contacto">Contacto</Link>

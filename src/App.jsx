@@ -7,6 +7,8 @@ import FooterComponent from './Components/LandingPage/Footer/FooterComponent'
 import BlogComponent from './Components/LandingPage/Blog/BlogComponent'
 import PostreComponent from './Components/LandingPage/Postres/PostreComponent'
 import Contacto from './Contacto'
+import AboutUs from './AboutUs'
+import Table from './Contenido'
 import './App.css'
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
@@ -35,6 +37,8 @@ const App = () => {
           
           }/>
           <Route path="/contacto" element={<Contacto />} />
+          <Route path="/acerca_de" element={<AboutUs />} />
+          <Route path="/tabla1" element={<Table />} />
 
       </Routes>
     
