@@ -8,7 +8,8 @@ import BlogComponent from './Components/LandingPage/Blog/BlogComponent'
 import PostreComponent from './Components/LandingPage/Postres/PostreComponent'
 import Contacto from './Contacto'
 import AboutUs from './AboutUs'
-import Table from './Contenido'
+import Table from './Producto'
+import Table1 from './Inventario'
 import './App.css'
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
@@ -38,7 +39,8 @@ const App = () => {
           }/>
           <Route path="/contacto" element={<Contacto />} />
           <Route path="/acerca_de" element={<AboutUs />} />
-          <Route path="/tabla1" element={<Table />} />
+          <Route path="/Producto" element={<Table />} />
+          <Route path="/Inventario" element={<Table1 />} />
 
       </Routes>
     

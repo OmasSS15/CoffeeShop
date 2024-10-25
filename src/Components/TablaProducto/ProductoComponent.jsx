@@ -21,7 +21,7 @@ const ProductTable = ({ products }) => {
                         <td>{product.name}</td>
                         <td>{product.description}</td>
                         <td>{product.price}</td>
-                        <td>{product.providerId}</td>
+                        <td>{product.provedorId}</td>
                         <td>{product.category}</td>
                         <td>{product.status}</td>
                     </tr>
