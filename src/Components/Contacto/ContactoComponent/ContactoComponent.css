@@ -1,4 +1,4 @@
-/* body {
+body2 {
     background-color: #ffffff;
     font-family: 'Inria Serif', serif;
     display: flex;
@@ -6,13 +6,15 @@
     align-items: center;
     height: 100vh;
     margin: 0;
-} */
+} 
 
 .contact-form {
     background-color: #F8B4C6;
     padding: 50px;
     border-radius: 8px;
     width: 700px;
+    margin-top: 170px;
+    margin-left: 310px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden; /* Para evitar que el encabezado salga de los bordes */
 }
@@ -36,6 +38,9 @@
 
 .contact-form label {
     color: #7E654E; /* Marrón oscuro */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: bold;
     text-align: center;
 }
 
