@@ -11,6 +11,7 @@ import AboutUs from './AboutUs'
 import Table from './Producto'
 import Table1 from './Inventario'
 import Table2 from './Proveedores'
+import Table3 from './Ventas'
 import './App.css'
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
@@ -43,6 +44,7 @@ const App = () => {
           <Route path="/Producto" element={<Table />} />
           <Route path="/Inventario" element={<Table1 />} />
           <Route path="/Proveedores" element={<Table2 />} />
+          <Route path="/Ventas" element={<Table3 />} />
 
       </Routes>
     
