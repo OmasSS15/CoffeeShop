@@ -11,7 +11,7 @@ const Contacto = () => {
     <div>
       <header><NavbarComponent /></header>
       
-      <div className="app-content"> {/* Esta es la parte que tendrá el fondo */}
+      <div className="app-content2"> {/* Esta es la parte que tendrá el fondo */}
         <AboutUsComponent />
       </div>
 

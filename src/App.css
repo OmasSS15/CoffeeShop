@@ -8,6 +8,17 @@
   padding-bottom: 175px; /* Espacio para evitar que quede detrás del footer */
 }
 
+.app-content2 {
+  min-height: 100vh;
+  background-image: url('./assets/Imagen/FondoAboutus.jpeg'); /* Fondo que quieres poner */
+  background-size: cover; /* Asegura que el fondo cubra todo el contenido */
+  background-repeat: no-repeat;
+  background-color: rgb(1, 1, 1);
+  background-position: center;
+  padding-top: 1px; /* Espacio para evitar que quede detrás del navbar */
+  padding-bottom: 175px; /* Espacio para evitar que quede detrás del footer */
+}
+
 header, footer {
   position: relative; /* Asegura que estén por encima del fondo */
   z-index: 10; /* Capa más alta para que no se vean tapados por el fondo */

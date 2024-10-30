@@ -23,11 +23,11 @@
     text-decoration: none; 
     color: #fff; 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 25px;
-    padding: 10px 15px; 
+    font-size: 22px;
+    padding: 15px 25px; 
     border-radius: 5px; 
-    transition: background-color 0.3s; 
-    margin-left: 30px;
+    transition: backgraund 0.3s; 
+    margin-left: 10px;
 }
 
 
@@ -37,8 +37,7 @@
     width: 1px; 
     height: 20px; 
     background-color: white; 
-    margin-left: 60px; 
-    margin-right: 50px; 
+  
 }
 
 .navbar2 a:hover {

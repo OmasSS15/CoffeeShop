@@ -1,4 +1,4 @@
-body2 {
+.body2 {
     background-color: #ffffff;
     font-family: 'Inria Serif', serif;
     display: flex;
@@ -6,6 +6,7 @@ body2 {
     align-items: center;
     height: 100vh;
     margin: 0;
+    background-image: url('./assets/Imagen/font.jpg');
 } 
 
 .contact-form {

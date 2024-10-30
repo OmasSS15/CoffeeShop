@@ -37,10 +37,11 @@
 }
 
 .mission-container, .vision-container {
-    width: 400px;
-    border: 1px solid #333;
-    border-radius: 5px;
-    overflow: hidden;
+    width: 500px;
+    padding: 20px;
+    margin-top: 2rem; /* Espacio entre el nav y el blog */
+     background-color: rgba(248, 180, 198, 0.5); 
+    box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.1); /* Sombra suave */
 }
 
 .mission-header, .vision-header {
@@ -51,17 +52,22 @@
 
 .mission-header h1, .vision-header h1 {
     color: #fff;
+    margin-top: 10px;
+    font-weight: bold;
     font-size: 24px;
+    font-style: italic;
 }
 
 .mission-body, .vision-body {
     background-color: #F8B4C6;
-    padding: 20px;
+    padding: 40px;
+    width: 460px;
     text-align: center;
 }
 
 .mission-body p, .vision-body p {
     font-size: 18px;
-    color: #333;
+    font-weight: bold;
+    color: #000000;
 }
 
