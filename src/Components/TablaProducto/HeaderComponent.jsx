@@ -7,8 +7,6 @@ const Header = ({ title }) => {
             <div className="title">{title}</div>
             <div className="actions">
                 <button className="btn2 add">+ Agregar</button>
-                <button className="btn2 delete">🗑️ Eliminar</button>
-                <button className="btn2 edit">✏️ Editar</button>
             </div>
         </div>
     );

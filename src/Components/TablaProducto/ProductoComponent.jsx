@@ -12,6 +12,7 @@ const ProductTable = ({ products }) => {
                     <th>Proveedor_id</th>
                     <th>Categoría</th>
                     <th>Estado</th>
+                    <th>Acciones</th>
                 </tr>
             </thead>
             <tbody>
@@ -24,6 +25,10 @@ const ProductTable = ({ products }) => {
                         <td>{product.provedorId}</td>
                         <td>{product.category}</td>
                         <td>{product.status}</td>
+                        <td>
+                            <button className="btn2 editar">Editar</button>
+                            <button className="btn2 eliminar">Eliminar</button>
+                        </td>
                     </tr>
                 ))}
             </tbody>

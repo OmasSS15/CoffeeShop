@@ -11,6 +11,7 @@ const VentasTable = ({ ventas }) => {
                     <th>Metodo de pago</th>
                     <th>Total</th>
                     <th>Id-Empleado</th>
+                    <th>Acciones</th>
                 </tr>
             </thead>
             <tbody>
@@ -22,6 +23,10 @@ const VentasTable = ({ ventas }) => {
                     <td>{venta.metpago}</td>
                     <td>{venta.total}</td>
                     <td>{venta.empleadoId}</td>
+                    <td>
+                            <button className="btn2 editar">Editar</button>
+                            <button className="btn2 eliminar">Eliminar</button>
+                        </td>
                 </tr>
             ))}
 

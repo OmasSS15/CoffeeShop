@@ -10,6 +10,7 @@ const InventarioTable = ({ inventarios }) => {
                     <th>Stock Inicial</th>
                     <th>Stock Actual</th>
                     <th>Umbral Reorden</th>
+                    <th>Acciones</th>
                 </tr>
             </thead>
             <tbody>
@@ -20,6 +21,10 @@ const InventarioTable = ({ inventarios }) => {
                         <td>{inventario.stockInicial}</td>
                         <td>{inventario.stockActual}</td>
                         <td>{inventario.umbralReorden}</td>
+                        <td>
+                            <button className="btn2 editar">Editar</button>
+                            <button className="btn2 eliminar">Eliminar</button>
+                        </td>
                     </tr>
                 ))}
             </tbody>

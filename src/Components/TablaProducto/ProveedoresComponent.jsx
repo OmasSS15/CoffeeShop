@@ -9,6 +9,7 @@ const ProveedoresTable = ({ proveedores }) => {
                     <th>Nombre</th>
                     <th>Contacto</th>
                     <th>Productos Suministrados</th>
+                    <th>Acciones</th>
                 </tr>
             </thead>
             <tbody>
@@ -18,6 +19,10 @@ const ProveedoresTable = ({ proveedores }) => {
                         <td>{proveedor.nombre}</td>
                         <td>{proveedor.contacto}</td>
                         <td>{proveedor.productSuminis}</td>
+                        <td>
+                            <button className="btn2 editar">Editar</button>
+                            <button className="btn2 eliminar">Eliminar</button>
+                        </td>
                     </tr>
                 ))}
             </tbody>

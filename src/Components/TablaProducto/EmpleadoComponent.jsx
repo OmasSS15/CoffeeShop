@@ -10,7 +10,8 @@ const EmpleadoTable = ({ empleados }) => {
                     <th>Apellido</th>
                     <th>Puesto</th>
                     <th>Salario</th>
-                    <th>Fecha de Contratacion</th>
+                    <th>Fecha de Contratación</th>
+                    <th>Acciones</th>
                 </tr>
             </thead>
             <tbody>
@@ -22,6 +23,10 @@ const EmpleadoTable = ({ empleados }) => {
                         <td>{empleado.puesto}</td>
                         <td>{empleado.salario}</td>
                         <td>{empleado.fechContratat}</td>
+                        <td>
+                            <button className="btn2 editar">Editar</button>
+                            <button className="btn2 eliminar">Eliminar</button>
+                        </td>
                     </tr>
                 ))}
             </tbody>
