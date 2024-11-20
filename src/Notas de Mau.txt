@@ -19,4 +19,36 @@ Instalar el paquete para el sequelize que permite la conexión en la BD
 npm i express cors mysql2 sequelize
 
 Comandos:
-node app.js: para la conexión a la BD
+node app.js -> para encender el servidor y activar la conexión
+
+Thunder Client
+Metodo GET
+Para mostrar todos los registros: http://localhost:8000/empleados/
+Para mostrar solo un registro: http://localhost:8000/empleados/3
+
+Metodo POST
+Para crear un registro: http://localhost:8000/empleados/
+En BODY > JSON
+{
+  "nombre": "Cristina",
+  "apellido": "Suárez Luna",
+  "puesto": "Empleado",
+  "salario": 1500,
+  "fecha_contratacion": "2010-11-30T12:00:00"
+}
+
+Metodo PUT
+Para actualizar un registro: http://localhost:8000/empleados/5
+En BODY > JSON
+Debes poner el id en la ruta que vas a actualizar
+{
+  "nombre": "Kristen",
+  "apellido": "Suárez Luna",
+  "puesto": "Gerente",
+  "salario": 3000,
+  "fecha_contratacion": "2010-11-30T12:00:00"
+}
+
+Metodo DELETE
+Para eliminar un registro: http://localhost:8000/empleados/5
+

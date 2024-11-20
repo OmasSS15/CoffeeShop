@@ -16,12 +16,13 @@ app.use('/empleados', routes)
 try {
     await db.authenticate()
     console.log('Conexión exitosa a la BD')
+    await db.sync({ alter: true });
 } catch (error) {
     console.log(`El error de conexión es: ${error}`)
 }
 
 app.get('/', (req, res) => {
-    res.send('Hola Mundo')
+    res.send('Conexión Exitosa')
 })
 
 // Es para que se conecte con el puerto 8000 de React, ya que él usa el 3000
