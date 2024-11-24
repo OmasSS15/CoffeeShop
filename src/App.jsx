@@ -8,11 +8,11 @@ import BlogComponent from './Components/LandingPage/Blog/BlogComponent'
 import PostreComponent from './Components/LandingPage/Postres/PostreComponent'
 import Contacto from './Contacto'
 import AboutUs from './AboutUs'
-import Table from './Producto'
-import Table1 from './Inventario'
-import Table2 from './Proveedores'
-import Table3 from './Ventas'
-import Table4 from './Empleado'
+import Table from './Tables/Producto'
+import Table1 from './Tables/Inventario'
+import Table2 from './Tables/Proveedores'
+import Table3 from './Tables/Ventas'
+import Table4 from './Tables/Empleado'
 
 import './App.css'
 
@@ -47,7 +47,7 @@ const App = () => {
           <Route path="/Inventario" element={<Table1 />} />
           <Route path="/Proveedores" element={<Table2 />} />
           <Route path="/Ventas" element={<Table3 />} />
-          <Route path="/Empleado" element={<Table4 />} />
+          <Route path="/Empleado/*" element={<Table4 />} />
 
       </Routes>
     

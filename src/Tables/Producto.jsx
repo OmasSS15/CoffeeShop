@@ -1,7 +1,7 @@
 import React from 'react';
-import Navbar from './Components/TablaProducto/NavbarComponent';
-import Header from './Components/TablaProducto/HeaderComponent';
-import ProductTable from './Components/TablaProducto/ProductoComponent';
+import Navbar from '../Components/TablesComponent/NavbarComponent';
+import Header from '../Components/TablesComponent/HeaderComponent';
+import ProductTable from '../Components/TablesComponent/Productos/ShowProducto';
 import './tabla.css';  
 
 const cont = () => {

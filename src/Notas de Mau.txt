@@ -12,6 +12,8 @@ Hover: Efecto para hacer que las cosas de css parezcan que floten o aumenten el 
 aysnc:  Puede realizar operaciones que toman tiempo (como llamadas a una API) sin bloquear el flujo del código.
 await: Su propósito es esperar a que la promesa se resuelva o rechace antes de continuar con el resto del código.
 
+---------------------------------------------------------------------------------------------------------------------------
+
 REACT:
 6. npm install (Para instalar los modulos)
 7. npm run dev (Para ver si funciona)
@@ -20,17 +22,36 @@ REACT:
 10. git commit -m " mensaje "
 11. git push
 
+---------------------------------------------------------------------------------------------------------------------------
+
 Instalar este paquete para el funcionamiento de las rutas:
 npm install react-router-dom
 
-Instalar el paquete para el sequelize que permite la conexión en la BD
+Instalar el paquete para el sequelize que permite la conexión en la BD (Esto va en el node):
+cd node
 npm i express cors mysql2 sequelize
 
 Instalar Axios para hacer peticiones al Backend:
 npm install axios
 
+Paquete de Font Awesome:
+1. Add SVG Core:
+npm i --save @fortawesome/fontawesome-svg-core
+
+2. Add Icon Packages:
+npm i --save @fortawesome/free-solid-svg-icons
+npm i --save @fortawesome/free-regular-svg-icons
+npm i --save @fortawesome/free-brands-svg-icons
+
+3. Add the React Component:
+npm i --save @fortawesome/react-fontawesome@latest
+
+---------------------------------------------------------------------------------------------------------------------------
+
 Comandos:
 node app.js -> para encender el servidor y activar la conexión
+
+---------------------------------------------------------------------------------------------------------------------------
 
 Thunder Client
 Metodo GET
