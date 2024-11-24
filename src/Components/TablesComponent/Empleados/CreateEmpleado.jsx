@@ -27,7 +27,7 @@ const CompCreateEmpleado = () => {
             apellido: apellido,
             puesto: puesto,
             salario: salario,
-            fecha_contratacion: fecha_contratacion
+            fecha_contratacion: fecha_contratacion.split('T')[0]
         } )
         navigate('/Empleado')
     }
@@ -125,6 +125,7 @@ const styles = {
       backgroundColor: '#d0b39a',
       borderRadius: '10px',
       boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.1)',
+      marginTop: '10%',
     },
     label: {
       display: 'block',
@@ -150,6 +151,8 @@ const styles = {
       border: 'none',
       borderRadius: '5px',
       cursor: 'pointer',
+      flex: 5, // Para que los botones tengan el mismo ancho
+      margin: '0 20px', // Separación entre botones
     },
   };
   

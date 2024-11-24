@@ -30,7 +30,7 @@ const CompEditEmpleado = () => {
             apellido: apellido,
             puesto: puesto,
             salario: salario,
-            fecha_contratacion: fecha_contratacion
+            fecha_contratacion: fecha_contratacion.split('T')[0]
         } )
         navigate('/Empleado')
     }
@@ -133,40 +133,42 @@ const CompEditEmpleado = () => {
 }
 
 const styles = {
-    container: {
-      padding: '20px',
-      maxWidth: '400px',
-      margin: 'auto',
-      backgroundColor: '#d0b39a',
-      borderRadius: '10px',
-      boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.1)',
-    },
-    label: {
-      display: 'block',
-      margin: '10px 0',
-      fontWeight: 'bold',
-    },
-    input: {
-      width: '100%',
-      padding: '8px',
-      margin: '5px 0',
-      borderRadius: '5px',
-      border: '1px solid #ccc',
-    },
-    buttonContainer: {
-      display: 'flex',
-      justifyContent: 'space-between',
-      marginTop: '20px',
-    },
-    button: {
-      backgroundColor: '#c5537c',
-      color: 'white',
-      padding: '10px 15px',
-      border: 'none',
-      borderRadius: '5px',
-      cursor: 'pointer',
-    },
-
-}
+  container: {
+    padding: '20px',
+    maxWidth: '400px',
+    margin: 'auto',
+    backgroundColor: '#d0b39a',
+    borderRadius: '10px',
+    boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.1)',
+    marginTop: '10%',
+  },
+  label: {
+    display: 'block',
+    margin: '10px 0',
+    fontWeight: 'bold',
+  },
+  input: {
+    width: '100%',
+    padding: '8px',
+    margin: '5px 0',
+    borderRadius: '5px',
+    border: '1px solid #ccc',
+  },
+  buttonContainer: {
+    display: 'flex',
+    justifyContent: 'space-between',
+    marginTop: '20px',
+  },
+  button: {
+    backgroundColor: '#c5537c',
+    color: 'white',
+    padding: '10px 15px',
+    border: 'none',
+    borderRadius: '5px',
+    cursor: 'pointer',
+    flex: 5, // Para que los botones tengan el mismo ancho
+    margin: '0 20px', // Separación entre botones
+  },
+};
 
 export default CompEditEmpleado
