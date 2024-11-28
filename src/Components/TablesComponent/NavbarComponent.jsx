@@ -7,11 +7,11 @@ const Navbar = () => {
     return (
         <nav className="navbar2">
             <ul>
-                <li><a href=""><Link to="/Inventario" replace={true}>Inventario</Link></a></li>
-                <li><a href=""><Link to="/Producto" replace={true}>Productos</Link></a></li>
-                <li><a href=""><Link to="/Ventas" replace={true}>Ventas</Link></a></li>
-                <li><a href=""><Link to="/Proveedores" replace={true}>Prooveedores</Link></a></li>
-                <li><a href=""><Link to="/Empleado" replace={true}>Empleados</Link></a></li>
+                <li><a href=""><Link to="/Inventario">Inventario</Link></a></li>
+                <li><a href=""><Link to="/Producto">Productos</Link></a></li>
+                <li><a href=""><Link to="/Ventas">Ventas</Link></a></li>
+                <li><a href=""><Link to="/Proveedor">Prooveedores</Link></a></li>
+                <li><a href=""><Link to="/Empleado">Empleados</Link></a></li>
             </ul>
         </nav>
     );
