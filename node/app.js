@@ -9,6 +9,7 @@ import EmpleadoRoutes from "./routes/EmpleadoRoutes.js";
 import ProveedorRoutes from "./routes/ProveedorRoutes.js";
 import InventarioRoutes from "./routes/InventarioRoutes.js";
 import ProductoRoutes from "./routes/ProductoRoutes.js";
+import VentaRoutes from "./routes/VentaRoutes.js";
 const app = express()
 
 app.use( cors())
@@ -17,6 +18,7 @@ app.use('/empleados', EmpleadoRoutes)
 app.use('/proveedores', ProveedorRoutes)
 app.use('/inventario', InventarioRoutes)
 app.use('/productos', ProductoRoutes)
+app.use('/ventas', VentaRoutes)
 // Así debe ser lo mismo para todos:
 // "/proveedores" debe de coincidir con esto: const URI = 'http://localhost:8000/proveedores/'
 // Esto ¨http://localhost:8000/proveedores/¨ se encuentra en Create, Edit y Show para cada una de las tablas
