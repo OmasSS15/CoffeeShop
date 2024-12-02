@@ -61,7 +61,7 @@ const InventarioTable = () => {
                             <td>{inventario.producto}</td>
                             <td>{inventario.stock_inicial}</td>
                             <td>{inventario.stock_actual}</td>
-                            <td>${inventario.umbral_reorden}</td>
+                            <td>{inventario.umbral_reorden}</td>
                             <td> 
                                 <button className="btn2 editar">
                                     <Link to={`/Inventario/Edit/${inventario.id}`} className="no-underline">

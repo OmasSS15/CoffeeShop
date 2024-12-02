@@ -1,34 +1,38 @@
-//Aquí se importa la conexión a la BD
 import db from "../database/db.js";
 
 //Aquí se importa el sequelize
 import { DataTypes } from "sequelize";
 
 //Se define el nombre de la tabla
-const EmpleadoModel = db.define('empleados', {
+const ProductosModel = db.define('productos', {
     // title:{ type: DataTypes.STRING },
     // content:{ type: DataTypes.STRING },
+
 
     // Aquí se coloca las columnas de la tabla:
     nombre: { 
         type: DataTypes.STRING, 
         allowNull: false // No permite valores NULL
     },
-    apellido: { 
+    descripcion: { 
         type: DataTypes.STRING, 
         allowNull: false // Permite valores NULL
     },
-    puesto: { 
-        type: DataTypes.STRING, 
+    precio: { 
+        type: DataTypes.FLOAT, 
         allowNull: false // No permite valores NULL
     },
-    salario: { 
+    proveedor: { 
         // type: DataTypes.DECIMAL(10, 2),
-        type: DataTypes.FLOAT,  
+        type: DataTypes.STRING,  
         allowNull: false // No permite valores NULL
     },
-    fecha_contratacion: { 
-        type: DataTypes.DATEONLY, 
+    categoria: { 
+        type: DataTypes.STRING, 
+        allowNull: false // Permite valores NULL
+    },
+    estado: { 
+        type: DataTypes.STRING, 
         allowNull: false // Permite valores NULL
     },
 },
@@ -38,4 +42,4 @@ const EmpleadoModel = db.define('empleados', {
 
 )
 
-export default EmpleadoModel
+export default ProductosModel
