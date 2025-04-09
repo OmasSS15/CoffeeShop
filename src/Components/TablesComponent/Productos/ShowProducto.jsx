@@ -71,12 +71,12 @@ const ProductTable = () => {
                                     <Link to={`/Producto/Edit/${producto.id}`} className="no-underline">
                                     <FontAwesomeIcon icon={faPenToSquare} />&nbsp;Editar
                                     </Link>
-                                </button>
+                                </button> 
                                 <button onClick={() => deleteProducto(producto.id)} className="btn2 eliminar">
                                     <FontAwesomeIcon icon={faTrash} />&nbsp;Eliminar
                                 </button>
-                            </td>
-                        </tr>
+                        </td>
+                    </tr>
                     ))}
                 </tbody>
             </table>
